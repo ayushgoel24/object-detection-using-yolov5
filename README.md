@@ -50,3 +50,22 @@
 
 <!-- add image in markdown -->
 <img src="./static/images/result.jpeg" width="800" height="400" />
+
+# Contributing
+Contributions to this repository are welcome! If you have any improvements or bug fixes, feel free to open an issue or submit a pull request.
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+# Acknowledgements
+This project is built upon the YOLOv5 repository by Ultralytics. We acknowledge their contribution to the YOLOv5 algorithm.
+
+# References
+YOLOv5 repository: https://github.com/ultralytics/yolov5
+
+# Conclusion
+Object detection using YOLOv5 is a powerful technique for detecting and localizing objects in images and videos. With this repository, you can train and deploy your own object detection models using the YOLOv5 algorithm.
+
+If you have any questions or need further assistance, please feel free to reach out.
+
+Happy object detection!
