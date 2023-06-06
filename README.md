@@ -50,8 +50,12 @@ This repository contains code and resources for performing object detection usin
 
 # Results
 
-<!-- add image in markdown -->
-<img src="./static/images/result.jpeg" width="800" height="400" />
+![Image 1](./static/images/result.jpeg)
+*Image 1: Object detection in a street scene.*
+
+![Image 2](./static/images/metrics.png)
+*Image 2: Model metrics*
+
 
 # Contributing
 Contributions to this repository are welcome! If you have any improvements or bug fixes, feel free to open an issue or submit a pull request.
