@@ -3,6 +3,8 @@
 [![GitHub Issues](https://img.shields.io/github/issues/ayushgoel24/object-detection-using-yolov5.svg)](https://github.com/ayushgoel24/object-detection-using-yolov5/issues)
 [![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-orange.svg)](https://github.com/ayushgoel24/object-detection-using-yolov5)
 
+This repository contains code and resources for performing object detection using the YOLOv5 model. YOLOv5 is a popular real-time object detection algorithm that achieves high accuracy while maintaining fast inference times.
+
 # YOLOv5 Model Architecture
 
 ## Parameters
