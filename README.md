@@ -1,5 +1,7 @@
 # Object Detection using YOLOv5
-<br/>
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Issues](https://img.shields.io/github/issues/ayushgoel24/object-detection-using-yolov5.svg)](https://github.com/ayushgoel24/object-detection-using-yolov5/issues)
+[![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-orange.svg)](https://github.com/ayushgoel24/object-detection-using-yolov5)
 
 # YOLOv5 Model Architecture
 
