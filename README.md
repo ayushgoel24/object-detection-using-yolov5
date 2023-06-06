@@ -1,4 +1,5 @@
-# object-detection-using-yolov5
+# Object Detection using YOLOv5
+<br/>
 
 # YOLOv5 Model Architecture
 
@@ -40,6 +41,8 @@
 13. Concatenate the P5 feature map from the head
 14. BottleneckCSP layer with 1024 channels (P5/32-large)
 15. Detect layer with parameters: Number of Classes (nc) and Anchors
+
+<br/>
 
 # Results
 
