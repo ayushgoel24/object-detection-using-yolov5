@@ -1,5 +1,5 @@
 dataset:
-    location: dataset/self-driving-dataset
+    location: self-driving-dataset
 
 phase:
     training:
@@ -7,6 +7,13 @@ phase:
         batch-size: 16
         num-epochs: 100
         custom-model-loc: model/custom_yolov5s.yaml
+        default-model: ./models/custom_yolov5s.yaml
         weights:
         output-dir: results
-        cache-images: True
+        cache-images: False
+
+    detection:
+        image-size: 416
+        confidence-threshold: 0.4
+        source: self-driving-dataset/test/images
+        weights: runs/train/results/weights/best.pt
