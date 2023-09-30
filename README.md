@@ -46,8 +46,6 @@ This repository contains code and resources for performing object detection usin
 14. BottleneckCSP layer with 1024 channels (P5/32-large)
 15. Detect layer with parameters: Number of Classes (nc) and Anchors
 
-<br/>
-
 # Results
 
 ![Image 1](./static/images/result.jpeg)
