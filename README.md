@@ -54,7 +54,6 @@ This repository contains code and resources for performing object detection usin
 ![Image 2](./static/images/metrics.png)
 *Image 2: Model metrics*
 
-
 ## Contributing
 Contributions to this repository are welcome! If you have any improvements or bug fixes, feel free to open an issue or submit a pull request.
 
