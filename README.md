@@ -5,19 +5,19 @@
 
 This repository contains code and resources for performing object detection using the YOLOv5 model. YOLOv5 is a popular real-time object detection algorithm that achieves high accuracy while maintaining fast inference times.
 
-# YOLOv5 Model Architecture
+## YOLOv5 Model Architecture
 
-## Parameters
+### Parameters
 - Number of Classes (nc): {num_classes}
 - Model Depth Multiple (depth_multiple): 0.33
 - Layer Channel Multiple (width_multiple): 0.50
 
-## Anchors
+### Anchors
 - P3/8 Anchors: [10,13, 16,30, 33,23]
 - P4/16 Anchors: [30,61, 62,45, 59,119]
 - P5/32 Anchors: [116,90, 156,198, 373,326]
 
-## YOLOv5 Backbone
+### YOLOv5 Backbone
 1. P1/2: Focus module with 64 output channels and a 3x3 kernel
 2. P2/4: Convolutional layer with 128 output channels, a 3x3 kernel, and a stride of 2
 3. BottleneckCSP layer with 128 channels
@@ -29,7 +29,7 @@ This repository contains code and resources for performing object detection usin
 9. SPP module with 1024 channels and pool sizes [5, 9, 13]
 10. BottleneckCSP layer with 1024 channels (no downsampling)
 
-## YOLOv5 Head
+### YOLOv5 Head
 1. Convolutional layer with 512 output channels and a 1x1 kernel
 2. Upsampling layer with a factor of 2 (nearest neighbor interpolation)
 3. Concatenate the P4 feature map from the backbone
@@ -46,7 +46,7 @@ This repository contains code and resources for performing object detection usin
 14. BottleneckCSP layer with 1024 channels (P5/32-large)
 15. Detect layer with parameters: Number of Classes (nc) and Anchors
 
-# Results
+## Results
 
 ![Image 1](./static/images/result.jpeg)
 *Image 1: Object detection in a street scene.*
@@ -55,19 +55,19 @@ This repository contains code and resources for performing object detection usin
 *Image 2: Model metrics*
 
 
-# Contributing
+## Contributing
 Contributions to this repository are welcome! If you have any improvements or bug fixes, feel free to open an issue or submit a pull request.
 
-# License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-# Acknowledgements
+## Acknowledgements
 This project is built upon the YOLOv5 repository by Ultralytics. We acknowledge their contribution to the YOLOv5 algorithm.
 
-# References
+## References
 YOLOv5 repository: https://github.com/ultralytics/yolov5
 
-# Conclusion
+## Conclusion
 Object detection using YOLOv5 is a powerful technique for detecting and localizing objects in images and videos. With this repository, you can train and deploy your own object detection models using the YOLOv5 algorithm.
 
 If you have any questions or need further assistance, please feel free to reach out.
